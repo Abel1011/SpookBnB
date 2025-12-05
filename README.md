@@ -38,6 +38,31 @@ The cabin holds four soul fragments. Those who gather them all may find a way ou
 **Fragment IV** — *"Where hope seems lost, the light awaits..."*
 > Only when the first three fragments are bound can the final path reveal itself. Scroll to where they say there is no escape.
 
+## 🐛 Debug Mode
+
+SpookBnB includes a debug mode to help you explore the dark mode experience without the flashlight effect obscuring the content.
+
+### How to Enable
+
+Add `?debug=true` to the URL:
+```
+http://localhost:3000?debug=true
+```
+
+### What It Does
+
+- **Disables the flashlight overlay**: See the entire dark mode layout without cursor restrictions
+- **Shows a debug indicator**: A red badge appears in the top-left corner confirming debug mode is active
+- **Reveals all hidden elements**: Perfect for testing, development, or exploring all the horror details
+- **Accessible from Victory Modal**: After escaping, click the "Debug Mode" button to reload with debug enabled
+
+### Use Cases
+
+- 🎨 **Design Review**: Inspect the full dark mode aesthetic without the flashlight limitation
+- 🧪 **Testing**: Verify all horror elements, ghost text, and hidden clues are working
+- 🔍 **Fragment Hunting**: Find all escape room clues without the challenge
+- 🛠️ **Development**: Build and debug dark mode features more efficiently
+
 ## 🛠️ Tech Stack
 
 - **Next.js 16** with App Router
