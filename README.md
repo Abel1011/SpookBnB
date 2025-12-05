@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎃 SpookBnB - Kiroween Hackathon 2025 👻
 
-## Getting Started
+> *"Your Perfect Mountain Getaway... or is it?"*
 
-First, run the development server:
+SpookBnB is a vacation rental landing page with a dual-mode experience that transforms a luxury cabin website into an interactive horror escape room.
+
+## 🦇 About This Project
+
+Built for the **Kiroween Hackathon** — Kiro's first-ever Halloween hackathon. SpookBnB demonstrates how Kiro can help bring creative, monstrous ideas to life. In this case: a UI that will give your users nightmares.
+
+### The Dual Experience
+
+- **☀️ Light Mode**: A welcoming, luxury cabin rental with warm aesthetics
+- **🌙 Dark Mode**: A terrifying horror experience with an escape room puzzle hidden within
+
+## ✨ Features
+
+- 🔦 **Flashlight Effect**: In dark mode, your cursor becomes a flashlight revealing content
+- 👻 **Ghost Text**: Messages that appear and vanish mysteriously
+- 🎵 **Ambient Horror Audio**: Whispers, creaks, heartbeats, and jump scares
+- 🧩 **Escape Room Puzzle**: Four fragments to collect and escape the cabin
+- 💀 **Transforming Reviews**: Happy testimonials become haunting messages
+- 🎬 **Dramatic Transitions**: Terrifying animations when toggling modes
+
+## 🔮 Can You Escape?
+
+The cabin holds four soul fragments. Those who gather them all may find a way out...
+
+**Fragment I** — *"The voices of the lost speak in broken tongues..."*
+> Some guests left more than reviews. Look for those marked by fate. Their final screams spell something... illuminating.
+
+**Fragment II** — *"Eyes watch from the shadows..."*
+> In the room where water cleanses, darkness reveals watchers. How many observe your vulnerability?
+
+**Fragment III** — *"Words flicker between truth and chaos..."*
+> The contract corrupts. Read between the glitches. What message hides in the static?
+
+**Fragment IV** — *"Where hope seems lost, the light awaits..."*
+> Only when the first three fragments are bound can the final path reveal itself. Scroll to where they say there is no escape.
+
+## 🛠️ Tech Stack
+
+- **Next.js 16** with App Router
+- **React 19**
+- **Tailwind CSS 4**
+- **Framer Motion** for animations
+- **Lucide React** for icons
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Production build
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) and toggle dark mode... if you dare 🦇
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎃 Built with Kiro
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project showcases Kiro's features:
+- **Specs**: Structured design with requirements, design docs, and tasks
+- **Steering**: Custom rules to guide development patterns
+- **Chat**: Natural conversation for brainstorming and implementation
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+*"The doors locked behind you. The windows show only darkness. You are not alone."*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**git commit to the darkness** 🖤

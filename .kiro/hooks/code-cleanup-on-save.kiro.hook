@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "name": "Code Cleanup & Translation",
+  "description": "When a file is saved, this hook translates any non-English comments to English, removes visible console.log statements (except console.error), and evaluates whether static content in components should be moved to data/content.js.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*.js",
+      "**/*.jsx",
+      "**/*.ts",
+      "**/*.tsx"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Review the saved file and perform the following cleanup tasks:\n\n1. **Translate Comments**: Find any comments that are not in English and translate them to English while preserving their meaning and context.\n\n2. **Remove Console Logs**: Remove all console.log() statements from the code. Keep console.error(), console.warn(), and other error-related logging intact.\n\n3. **Static Content Evaluation**: If the component contains static content (hardcoded strings, arrays of data, configuration objects), evaluate whether it should be moved to data/content.js instead. If you recommend moving content, explain what should be moved and why.\n\nApply the translations and console.log removals directly. For static content suggestions, provide recommendations but ask before making those changes."
+  }
+}
